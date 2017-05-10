@@ -21,6 +21,7 @@ WriteMakefile(
         'Exporter' => 0,
         'Memoize'  => 0,
         'DBI'      => 0,
+	'DBD::Pg'  => 0,
         'Carp'     => 0
     },
     dist  => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
